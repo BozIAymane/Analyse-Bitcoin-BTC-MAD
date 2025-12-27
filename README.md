@@ -301,7 +301,7 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de 
 
 **Aymane Bozian** (à personnaliser)
 - GitHub: [@BozIAymane](https://github.com/BozIAymane)
-- LinkedIn: [Aymane Bozian](https://www.linkedin.com/in/aymane-bozian-6169b335b/)
+- LinkedIn: [Aymane Bozian](https://www.linkedin.com/in/aymane-bozian/))
 - Email: aymanebozian@gmail.com
 
 ## 🙏 Remerciements
