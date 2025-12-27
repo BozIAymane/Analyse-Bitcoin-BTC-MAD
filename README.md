@@ -202,10 +202,6 @@ Analyse-Bitcoin-BTC-MAD/
 │   ├── strategie_mm_croisees.png
 │   ├── comparaison_strategies.png
 │   └── ... (15+ visualisations)
-│
-└── docs/                              # Documentation
-    ├── BTC_projetVF.docx             # Rapport complet
-    └── methodology.md                # Méthodologie détaillée
 ```
 
 ## 🔬 Méthodologie Détaillée
