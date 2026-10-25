@@ -1,0 +1,7 @@
+services:
+  bitcoin-analytics:
+    build: .
+    container_name: btc-mad-analytics
+    ports:
+      - "8501:8501"
+    restart: unless-stopped

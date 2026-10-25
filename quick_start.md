@@ -25,7 +25,7 @@ python bitcoin_full_scripts.py
 
 ```bash
 # 1. Clonez le projet
-git clone https://github.com/BozlAymane/Analyse-Bitcoin-BTC-MAD.git
+git clone https://github.com/BozIAymane/Analyse-Bitcoin-BTC-MAD.git
 cd Analyse-Bitcoin-BTC-MAD
 
 # 2. Créez un environnement virtuel

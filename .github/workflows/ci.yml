@@ -1,0 +1,29 @@
+name: Python CI & Quantitative Pipeline Test
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run Core Analytics & Backtest Pipeline
+      run: |
+        python -c "from src.data_loader import load_btc_data; from src.indicators import compute_indicators; from src.backtest import run_backtest_ma; df = load_btc_data(); df = compute_indicators(df); res = run_backtest_ma(df); print('Pipeline passed! Final MAD:', res['final_value'])"
